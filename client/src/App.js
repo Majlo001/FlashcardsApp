@@ -1,10 +1,9 @@
-
+import FlashcardDeck from './components/flashcardDeck/FlashcardDeck'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <FlashcardDeck />
     </div>
   );
 }
