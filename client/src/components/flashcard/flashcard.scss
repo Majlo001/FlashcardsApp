@@ -1,0 +1,17 @@
+// .flashcard__wrapper{
+//     perspective: 1000px;
+// }
+.flashcard__wrapper-inner {
+    transition: transform 0.7s ease;
+    transform-style: preserve-3d;
+}
+.flashcard__wrapper-inner-rotate {
+    transform: rotateX(-180deg);
+}
+.flashcard__front, .flashcard__back{
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+.flashcard__back{
+    transform: rotateX(180deg);
+}
